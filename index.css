@@ -1,12 +1,12 @@
 * {
-    max-width: 900px;
+    max-width: 500px;
     margin: auto;
   }
   
   
-  /*body {
+  body {
       min-width: 500px;
-  }*/
+  }
   
   div {
     border-radius: 5px;
@@ -24,6 +24,21 @@
     margin-left: 3%;
   }
   
+  #name {
+    height: 50px;
+    width: 100%;
+    clear: both;
+    position: relative;
+    text-align: center;
+  }
+  #information {
+    height: 50px;
+    width: 100%;
+    clear: both;
+    position: relative;
+    text-align: center;
+  }
+
   #footer {
     height: 50px;
     width: 100%;
@@ -63,13 +78,6 @@
   
   .head {
     font-size: 20px;
-  }
-  
-  #name {
-    font-family: Sacramento;
-    float: right;
-    margin-top: 10px;
-    margin-right: 4%;
   }
   
   a {

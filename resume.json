@@ -18,6 +18,10 @@
         "network": "LinkedIn",
         "username": "francisco-trigo-mijes",
         "url": "https://www.linkedin.com/in/francisco-trigo-mijes/"
+      },{
+        "network": "GitHub",
+        "username": "franciscotrigo",
+        "url": "https://github.com/franciscotrigo"
       }]
     },
     "work": [{
@@ -105,12 +109,8 @@
       "fluency": "Native speaker"
     }],
     "interests": [{
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
+      "name": "Electric Guitar"
+    },{ "name": "Homelab"}],
 
     "projects": [{
       "name": "Cloud Resume Challenge",
@@ -119,5 +119,12 @@
       "description": "This very page. Created to learn to use technologies like S3, CloudFront, DynamoDB, and Lambda",
       "highlights": "",
       "url": "https://trigomijes.com/"
-    }]
+    },{
+    "name": "Homelab",
+    "startDate": "2018",
+    "endDate": "",
+    "description": "I created a homelab.",
+    "highlights": "",
+    "url": "https://trigomijes.com/"
+}]
   }

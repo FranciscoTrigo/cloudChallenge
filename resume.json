@@ -79,10 +79,31 @@
     }],
 
     "certificates": [{
-      "name": "AWS Certified Cloud Practitioner",
-      "date": "2021-11-07",
+      "name": "Certified Cloud Practitioner",
+      "date": "",
       "issuer": "AWS",
-      "url": "https://certificate.com"
+      "url": ""
+    },{
+      "name": "Security+",
+      "date": "",
+      "issuer": "CompTIA",
+      "url": ""
+    },{
+      "name": "ITIL Foundations",
+      "date": "",
+      "issuer": "Axelos",
+      "url": ""
+    },
+    {
+      "name": "Project+",
+      "date": "",
+      "issuer": "CompTIA",
+      "url": ""
+    },{
+      "name": "A+",
+      "date": "",
+      "issuer": "CompTIA",
+      "url": ""
     }],
 
     "skills": [{

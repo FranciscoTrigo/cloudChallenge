@@ -6,7 +6,7 @@
       "email": "Francisco@trigomijes.com",
       "phone": "",
       "url": "https://trigomijes.com",
-      "summary": "A summary of John Doe…",
+      "summary": "My name is Francisco.",
       "location": {
         "address": "",
         "postalCode": "",
@@ -15,9 +15,9 @@
         "region": "Texas"
       },
       "profiles": [{
-        "network": "",
-        "username": "",
-        "url": ""
+        "network": "LinkedIn",
+        "username": "francisco-trigo-mijes",
+        "url": "https://www.linkedin.com/in/francisco-trigo-mijes/"
       }]
     },
     "work": [{
@@ -26,11 +26,31 @@
       "url": "https://www.cognizant.com/us/en",
       "startDate": "2022-08-01",
       "endDate": "2023-11-30",
-      "summary": "Description…",
+      "summary": "I was a cloud engineer over here.",
       "highlights": [
-        "Started the company"
+        "Started the company",
+        "Did stuff"
       ]
-    }],
+    },
+    {
+    "name":"Paylocity",
+    "position": "Software Developer Engineer Intern",
+    "url": "https://paylocity.com",
+    "startDate": "2022-05-01",
+    "endDate": "2022-08-01",
+    "sumary":"I developed software here."
+    },
+    {
+    "name":"Parkland Hospital",
+    "position": "IT Support Engineer",
+    "url": "https://www.parklandhealth.org/home",
+    "startDate": "2020-04-01",
+    "endDate": "2022-04-30",
+    "summary":"I supported a bunch of stuff here."
+    }
+  ],
+
+    
     "volunteer": [{
       "organization": "Organization",
       "position": "Volunteer",
@@ -44,7 +64,7 @@
     }],
     "education": [{
       "institution": "Western Governors University",
-      "url": "https://institution.com/",
+      "url": "https://www.wgu.edu/",
       "area": "Computer Science",
       "studyType": "Bachelor",
       "startDate": "",
@@ -52,25 +72,14 @@
       "score": "",
       "courses": ""
     }],
-    "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
+
     "certificates": [{
-      "name": "Certificate",
+      "name": "AWS Certified Cloud Practitioner",
       "date": "2021-11-07",
-      "issuer": "Company",
+      "issuer": "AWS",
       "url": "https://certificate.com"
     }],
-    "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
-    }],
+
     "skills": [{
       "name": "Web Development",
       "level": "Master",
@@ -79,9 +88,20 @@
         "CSS",
         "JavaScript"
       ]
+    },{
+      "name": "System Administration",
+      "level": "",
+      "keywords": [
+        "SSH",
+        "Linux",
+        "Bash"
+      ]
     }],
     "languages": [{
       "language": "English",
+      "fluency": "Bilingual"
+    },{
+      "language": "Spanish",
       "fluency": "Native speaker"
     }],
     "interests": [{
@@ -91,18 +111,13 @@
         "Unicorns"
       ]
     }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }],
+
     "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
+      "name": "Cloud Resume Challenge",
+      "startDate": "",
+      "endDate": "",
+      "description": "This very page. Created to learn to use technologies like S3, CloudFront, DynamoDB, and Lambda",
+      "highlights": "",
+      "url": "https://trigomijes.com/"
     }]
   }

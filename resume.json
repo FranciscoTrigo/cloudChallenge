@@ -6,7 +6,7 @@
       "email": "Francisco@trigomijes.com",
       "phone": "",
       "url": "https://trigomijes.com",
-      "summary": "My name is Francisco.",
+      "summary": "My name is Francisco. And I am an IT professional with over 4 years of experience that focuses on cloud technologies and cybersecurity.",
       "location": {
         "address": "",
         "postalCode": "",
@@ -24,7 +24,19 @@
         "url": "https://github.com/franciscotrigo"
       }]
     },
-    "work": [{
+    "work": [
+      {
+      "name": "Freelance IT Consultant",
+      "position": "",
+      "url": "",
+      "startDate": "2023-11-01",
+      "endDate": "",
+      "summary": "As a freelance IT Consultant, I provided assitance to individuals and small organizations in improving their online presence and managing their IT infrastructure. My role involved understanding client needs and delivering practical solutions within their budget and resource constraints.",
+      "highlights": [
+        "Started the company",
+        "Did stuff"
+      ]
+    },{
       "name": "Cognizant",
       "position": "Cloud Security Engineer",
       "url": "https://www.cognizant.com/us/en",
@@ -32,8 +44,8 @@
       "endDate": "2023-11-30",
       "summary": "I was a cloud engineer over here.",
       "highlights": [
-        "Started the company",
-        "Did stuff"
+        "Analyzed ServiceNow forms to correct them from generating 12+ empty fields. Efforts resulted in successful report generation. ",
+        "Identified and proposed improvements to reboot servers automatically after application crash and update, and led the implementation to successfully eliminate the need to manually reboot servers"
       ]
     },
     {
@@ -55,17 +67,6 @@
   ],
 
     
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
     "education": [{
       "institution": "Western Governors University",
       "url": "https://www.wgu.edu/",
@@ -86,7 +87,7 @@
 
     "skills": [{
       "name": "Web Development",
-      "level": "Master",
+      "level": "",
       "keywords": [
         "HTML",
         "CSS",
@@ -116,7 +117,7 @@
       "name": "Cloud Resume Challenge",
       "startDate": "",
       "endDate": "",
-      "description": "This very page. Created to learn to use technologies like S3, CloudFront, DynamoDB, and Lambda",
+      "description": "This very page. Created using services technologies like S3, CloudFront, DynamoDB, and Lambda",
       "highlights": "",
       "url": "https://trigomijes.com/"
     },{

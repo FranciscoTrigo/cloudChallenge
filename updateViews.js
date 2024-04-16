@@ -1,6 +1,6 @@
 let views = fetch('https://p0xwa3zuc0.execute-api.us-east-2.amazonaws.com/default/incrementResumeViews')
 .then(res => res.json())
-.then(res => => {document.getElementById("counter").innerHTML = res.body.count})
+.then(res => {document.getElementById("counter").innerHTML = res.body.count})
 .then(data => console.log(data));
 
 

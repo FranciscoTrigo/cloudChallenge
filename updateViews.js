@@ -10,7 +10,7 @@ let views = fetch(apiUrl)
   })
   .then(data => {
     // Assuming your API returns an object with a key 'value' containing the integer
-    const integerValue = data.body;
+    const integerValue = data.value;
     console.log('Integer value:', integerValue);
     // You can do whatever you need with the integer value here
   })

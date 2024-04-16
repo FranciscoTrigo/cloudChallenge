@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetch Integer from API</title>
+</head>
+<body>
+  <div id="result"></div>
+
+  <script>
+    async function fetchIntegerFromAPI(apiUrl) {
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+          throw new Error('Failed to fetch data from the API');
+        }
+        const data = await response.json();
+        return data;
+      } catch (error) {
+        console.error('Error fetching data:', error);
+        // You can handle the error as per your requirement
+      }
+    }
+
+    window.onload = function() {
+      const apiUrl = 'https://p0xwa3zuc0.execute-api.us-east-2.amazonaws.com/default/incrementResumeViews';
+      fetchIntegerFromAPI(apiUrl)
+        .then(integer => {
+          // Update the content of the 'result' div with the fetched integer value
+          document.getElementById('result').textContent = 'Integer value: ' + integer;
+        })
+        .catch(error => {
+          console.error('Error:', error);
+        });
+    };
+  </script>
+</body>
+</html>

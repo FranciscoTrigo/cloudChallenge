@@ -1,4 +1,4 @@
-const apiURL = 'https://p0xwa3zuc0.execute-api.us-east-2.amazonaws.com/default/incrementResumeViews');
+const apiURL = 'https://p0xwa3zuc0.execute-api.us-east-2.amazonaws.com/default/incrementResumeViews';
 
 
 async function fetchIntegerFromAPI(apiUrl) {

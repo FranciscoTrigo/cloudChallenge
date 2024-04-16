@@ -1,7 +1,33 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<body>
-    Hello <script src="updateViews.js"></script> amigos
- </body>
+<p>
+    <script>
+        async function fetchIntegerFromAPI(apiUrl) {
+          try {
+            const response = await fetch(apiUrl);
+            if (!response.ok) {
+              throw new Error('Failed to fetch data from the API');
+            }
+            const data = await response.json();
+            return data;
+          } catch (error) {
+            console.error('Error fetching data:', error);
+            // You can handle the error as per your requirement
+          }
+        }
+    
+        window.onload = function() {
+          const apiUrl = 'https://p0xwa3zuc0.execute-api.us-east-2.amazonaws.com/default/incrementResumeViews';
+          fetchIntegerFromAPI(apiUrl)
+            .then(integer => {
+              // Update the content of the 'result' div with the fetched integer value
+              document.getElementById('result').textContent = 'Integer value: ' + integer;
+            })
+            .catch(error => {
+              console.error('Error:', error);
+            });
+        };
+      </script>
+</p>
 <p>It was generated with <a href="https://jsonresume.org/">JSON Resume</a> and uploaded to AWS with S3 and CloudFront.</p>
 <p>It is automatilly deployed using CodePipeline from <a href="https://github.com/FranciscoTrigo/cloudChallenge">this Github repository</a>.</p>
 <html xmlns="http://www.w3.org/1999/xhtml">

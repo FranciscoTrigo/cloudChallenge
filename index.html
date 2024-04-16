@@ -21,7 +21,7 @@
           fetchIntegerFromAPI(apiUrl)
             .then(integer => {
               // Update the content of the 'result' div with the fetched integer value
-              document.getElementById('result').textContent = 'Integer value: ' + integer;
+              document.getElementById('result').textContent = integer + ' persons have visited this resume!';
             })
             .catch(error => {
               console.error('Error:', error);
